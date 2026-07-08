@@ -1,4 +1,4 @@
-# 🧠 Brain Computer Interface using EEG Signals and ANN
+# Brain Computer Interface using EEG Signals and ANN
 
 ## Overview
 
@@ -62,29 +62,32 @@ Brain_Computer_Interface_ANN/
 
 ## Installation
 
-Clone repository:
+## Clone repository:
 
-bash- git clone <https://github.com/Anshul777-master/Brain-Computer-Interface-ANN>
+## bash- git clone 
+<https://github.com/Anshul777-master/Brain-Computer-Interface-ANN>
 
-##Install dependencies: pip install -r requirements.txt
+## Install dependencies
+pip install -r requirements.txt
 
-##Dataset:This project uses the DEAP EEG dataset.
+## Dataset
+This project uses the DEAP EEG dataset.
 
 Download the dataset separately and place .dat files inside:
-
 dataset/
-Run Project
 
-Train model:
+## Run Project
+
+## Train model:
 python src/train.py
 
-Evaluate:
+## Evaluate:
 python src/evaluate.py
 
-Run application:
+## Run application:
 streamlit run app.py
 
-Model
+## Model
 ANN Architecture:
 
 Dense Layer: 128 neurons
@@ -92,5 +95,5 @@ Dense Layer: 64 neurons
 Dense Layer: 32 neurons
 Output Layer: Sigmoid
 
-Author
+## Author
 Anshul Gupta

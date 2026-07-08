@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Dataset (DEAP is large and not uploaded)
+dataset/*.dat
+dataset/*.zip
+
+# Trained models
+models/*.keras
+models/*.h5
+models/*.pkl
+
+# Generated outputs
+outputs/*.npy
+outputs/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
